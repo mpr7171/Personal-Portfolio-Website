@@ -3,27 +3,15 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
-import { useTheme } from "../ThemeContext";
 
 const Navbar = () => {
-  const { darkMode: contextDarkMode, toggleDarkMode: toggleContextDarkMode } =
-    useTheme();
-
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
 
   return (
-    <div
-      className={`fixed w-full h-[80px] flex justify-between items-center px-4 ${
-        contextDarkMode ? "bg-[#0a192f]" : "bg-[#ffffff]"
-      } ${contextDarkMode ? "text-gray-300" : "text-gray-900"}`}
-    >
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       {/* Animated Portfolio Text */}
-      <div
-        className={`text-4xl font-bold ${
-          contextDarkMode ? "text-white" : "text-black"
-        }`}
-      >
+      <div className="text-4xl font-bold">
         <span className="text-blue-600">P</span>
         <span className="text-red-600">O</span>
         <span className="text-yellow-400">R</span>
@@ -108,16 +96,6 @@ const Navbar = () => {
         </li>
       </ul>
 
-      {/* Dark Mode / Light Mode Toggle Button */}
-      <button
-        onClick={toggleContextDarkMode}
-        className={`ml-4 p-2 rounded-full ${
-          contextDarkMode ? "bg-gray-800 text-white" : "bg-gray-300 text-black"
-        }`}
-      >
-        {contextDarkMode ? "Light Mode" : "Dark Mode"}
-      </button>
-
       {/* Social icons */}
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
         <ul>
@@ -149,16 +127,6 @@ const Navbar = () => {
               Email <HiOutlineMail size={30} />
             </a>
           </li>
-          {/* <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
-            <a
-              className='flex justify-between items-center w-full text-gray-300'
-              href='./Pranav_Reddy_Resume.pdf'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              Resume <BsFillPersonLinesFill size={30} />
-            </a>
-          </li> */}
         </ul>
       </div>
     </div>
