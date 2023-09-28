@@ -1,5 +1,6 @@
 import React from "react";
-import { FaDownload } from "react-icons/fa";
+// import { FaDownload } from "react-icons/fa";
+import Download from "../assets/download.svg";
 
 const Home = () => {
   return (
@@ -11,7 +12,7 @@ const Home = () => {
           PRANAV REDDY
         </h1>
         <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">
-          I'm a Full Stack Developer.
+          I'm a FRONT END Developer.
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px]">
           I’m a full-stack developer specializing in building (and occasionally
@@ -22,11 +23,11 @@ const Home = () => {
           <a
             href="./Pranav_Reddy_Resume.pdf"
             download="Pranav_Reddy_Resume.pdf"
-            className="text-white group px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600"
+            className="text-white group px-6 py-3 my-2 flex items-center"
           >
             My Resume
             <span>
-              <FaDownload size={20} />
+              <img src={Download} alt="Download-Button" />
             </span>
           </a>
         </div>
