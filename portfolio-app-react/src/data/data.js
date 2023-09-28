@@ -1,35 +1,26 @@
-import WorkIm from '../assets/projects/workImg.jpeg'
-import RealEst from '../assets/projects/realestate.jpg'
+import WorkIm from "../assets/projects/workImg.jpeg";
+import RealEst from "../assets/projects/realestate.jpg";
 
-export const data=[
-    {
-        id:1,
-        name:"React JS Application",
-        image:WorkIm,
-        github:"",
-        live:"",
-    },
-    {
-        id:2,
-        name:"React JS Application",
-        image:RealEst,
-        github:"",
-        live:"",
-    },
-    {
-        id:3,
-        name:"React JS Application",
-        image:WorkIm,
-        github:"",
-        live:"",
-    },
-    {
-        id:4,
-        name:"React JS Application",
-        image:RealEst,
-        github:"",
-        live:"",
-    },
-
-
-]
+export const data = [
+  {
+    id: 1,
+    name: "Short Video App",
+    image: WorkIm,
+    github: "https://github.com/mpr7171/Short-Video-App",
+    live: "",
+  },
+  {
+    id: 2,
+    name: "Visualising Analysis Tool",
+    image: RealEst,
+    github: "https://github.com/mpr7171/Visualising-Tool-Analysis",
+    live: "",
+  },
+  {
+    id: 3,
+    name: "Dinosaur Dino Game",
+    image: WorkIm,
+    github: "",
+    live: "",
+  },
+];
