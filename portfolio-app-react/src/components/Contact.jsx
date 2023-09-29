@@ -1,6 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Contact = () => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    const subject = encodeURIComponent("Collaboration Inquiry");
+    const body = encodeURIComponent(
+      `Hello,\n\nMy name is ${name}, and my email is ${email}. 
+      I have a message for you:\n\n${message}`
+    );
+    window.location.href = `mailto:maddipranavreddy@gmail.com?subject=${subject}&body=${body}`;
+  };
+
   return (
     <div
       name="contact"
@@ -10,21 +24,15 @@ const Contact = () => {
         method="POST"
         action="https://getform.io/f/a699a1b2-f225-434e-b317-1fbbde8e006c"
         className="flex flex-col max-w-[600px] w-full"
-        onSubmit={(event) => {
-          event.preventDefault();
-          const subject = encodeURIComponent("Collaboration Inquiry");
-          const body = encodeURIComponent(
-            "Hello,\n\nI would like to collaborate with you on a project. Please let me know how we can get started."
-          );
-          window.location.href = `mailto:maddipranavreddy@gmail.com?subject=${subject}&body=${body}`;
-        }}
+        onSubmit={handleSubmit}
       >
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300">
             Contact
           </p>
           <p className="text-gray-300 py-4">
-            Feel free to get in Touch with me 
+            Please don't hesitate to reach out to me, or you can call me at +91
+            8186010696
           </p>
         </div>
         <input
@@ -32,18 +40,24 @@ const Contact = () => {
           type="text"
           placeholder="Name"
           name="name"
+          value={name}
+          onChange={(e) => setName(e.target.value)}
         />
         <input
           className="my-4 p-2 bg-[#ccd6f6]"
           type="email"
           placeholder="Email"
           name="email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
         />
         <textarea
           className="bg-[#ccd6f6] p-2"
           name="message"
           rows="10"
           placeholder="Message"
+          value={message}
+          onChange={(e) => setMessage(e.target.value)}
         ></textarea>
         <button
           type="submit"
