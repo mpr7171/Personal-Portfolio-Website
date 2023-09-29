@@ -20,7 +20,7 @@ export const data = [
     id: 3,
     name: "Dinosaur Dino Game",
     image: WorkIm,
-    github: "",
+    github: "https://github.com/mpr7171/Dinosaur_Dino_Game",
     live: "",
   },
 ];

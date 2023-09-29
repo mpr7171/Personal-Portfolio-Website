@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
@@ -11,7 +10,7 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       {/* Animated Portfolio Text */}
-      <div className="text-4xl font-bold">
+      {/* <div className="text-4xl font-bold">
         <span className="text-blue-600">P</span>
         <span className="text-red-600">O</span>
         <span className="text-yellow-400">R</span>
@@ -21,7 +20,7 @@ const Navbar = () => {
         <span className="text-blue-600">L</span>
         <span className="text-red-600">I</span>
         <span className="text-yellow-400">O</span>
-      </div>
+      </div> */}
 
       {/* menu */}
       <ul className="hidden md:flex">

@@ -1,6 +1,6 @@
 import React from "react";
 // import { FaDownload } from "react-icons/fa";
-import Download from "../assets/download.svg";
+import Download from "../assets/download.png";
 
 const Home = () => {
   return (
@@ -25,9 +25,29 @@ const Home = () => {
             download="Pranav_Reddy_Resume.pdf"
             className="text-white group px-6 py-3 my-2 flex items-center"
           >
-            My Resume
-            <span>
-              <img src={Download} alt="Download-Button" />
+            <span
+              style={{
+                fontSize: "25px",
+                marginTop: "22px",
+                marginLeft: "0px",
+                marginRight: "0px",
+              }}
+              className="resume-text"
+            >
+              My Resume
+            </span>{" "}
+            <span
+              style={{
+                marginLeft: "10px",
+                marginRight: "0px",
+              }}
+            >
+              <img
+                src={Download}
+                alt="Download-Button"
+                style={{ width: "25px", height: "25px", marginTop: "18px" }}
+                className="download-icon"
+              />
             </span>
           </a>
         </div>
