@@ -1,13 +1,29 @@
 import React from "react";
-// import { FaDownload } from "react-icons/fa";
-import Download from "../assets/download.png";
+import { Download } from "react-bootstrap-icons";
 
 const Home = () => {
+  const taglineStyles = {
+    fontWeight: 700,
+    letterSpacing: "0.8px",
+    padding: "8px 20px",
+    background: "linear-gradient(360deg, #002147, #003575)",
+    border: "1px solid rgba(255, 255, 255, 0.5)",
+    fontSize: "20px",
+    marginBottom: "16px",
+    maxWidth: "300px",
+    marginTop: "150px",
+    color: "#fff",
+    display: "inline-block",
+  };
+
   return (
     <div name="home" className="w-full h-screen bg-[#0a192f]">
       {/* Container */}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
-        <p className="text-pink-600">Hi, my name is</p>
+        {/* Tagline with applied styles */}
+        <span style={taglineStyles}>Welcome to my Portfolio</span>
+
+        <p className="text-[#ccd6f6]">Hi, my name is</p>
         <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
           PRANAV REDDY
         </h1>
@@ -25,29 +41,9 @@ const Home = () => {
             download="Pranav_Reddy_Resume.pdf"
             className="text-white group px-6 py-3 my-2 flex items-center"
           >
-            <span
-              style={{
-                fontSize: "25px",
-                marginTop: "22px",
-                marginLeft: "0px",
-                marginRight: "0px",
-              }}
-              className="resume-text"
-            >
-              My Resume
-            </span>{" "}
-            <span
-              style={{
-                marginLeft: "10px",
-                marginRight: "0px",
-              }}
-            >
-              <img
-                src={Download}
-                alt="Download-Button"
-                style={{ width: "25px", height: "25px", marginTop: "18px" }}
-                className="download-icon"
-              />
+            <button style={{ fontSize: "25px" }}>My Resume</button>
+            <span style={{ marginLeft: "10px" }}>
+              <Download size={25} />
             </span>
           </a>
         </div>
