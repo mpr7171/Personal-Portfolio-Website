@@ -1,6 +1,11 @@
 import React, { useState } from "react";
-import { FaBars, FaTimes, FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
+import {
+  FaBars,
+  FaTimes,
+  FaGithub,
+  FaLinkedin,
+  FaInstagram,
+} from "react-icons/fa";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
@@ -39,11 +44,16 @@ const Navbar = () => {
             Skills
           </Link>
         </li>
-        <li>
+          <li>
+            <Link to="experience" smooth={true} duration={500}>
+              Experience
+            </Link>
+          </li>
+          <li>
           <Link to="work" smooth={true} duration={500}>
             Projects
           </Link>
-        </li>
+          </li>
         <li>
           <Link to="contact" smooth={true} duration={500}>
             Contact
