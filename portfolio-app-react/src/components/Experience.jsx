@@ -12,8 +12,14 @@ const Experience = () => {
     paddingLeft: "12%",
   };
   const marginBottomStyles = {
-    marginBottom: "20px", // Add margin at the bottom for spacing
+    marginBottom: "20px", 
   };
+
+  const headingWithArrowStyles = {
+    display: "flex",
+    alignItems: "center", 
+  };
+
   return (
     <section
       name="experience"
@@ -30,32 +36,35 @@ const Experience = () => {
                 Experience
               </h1>
             </div>
+            <br></br>
 
             <Row>
               <Col>
-                <h3>
-                  SDE Intern{" "}
-                  <a
-                    href="https://drive.google.com/file/d/1GXrOn1khGRXrkNpeCW4PGdvuqNnf46np/view?usp=sharing"
-                    target={"_blank"}
-                    style={{ color: "white", fontSize: "30px" }}
-                  >
-                    <FaArrowUp />
-                  </a>
-                </h3>
-                <h3>
-                  <a
-                    href="https://weiw.in/"
-                    target={"_blank"}
-                    style={{
-                      color: "white",
-                      fontSize: "30px",
-                      textDecoration: "none",
-                    }}
-                  >
-                    RadixLink
-                  </a>
-                </h3>
+                <div>
+                  <h2 style={headingWithArrowStyles}>
+                    SDE Intern{" "}
+                    <a
+                      href="https://drive.google.com/file/d/1GXrOn1khGRXrkNpeCW4PGdvuqNnf46np/view?usp=sharing"
+                      target={"_blank"}
+                      style={{ color: "white", fontSize: "30px" }}
+                    >
+                      <FaArrowUp />
+                    </a>
+                  </h2>
+                  <h3>
+                    <a
+                      href="https://weiw.in/"
+                      target={"_blank"}
+                      style={{
+                        color: "white",
+                        fontSize: "30px",
+                        textDecoration: "none",
+                      }}
+                    >
+                      RadixLink
+                    </a>
+                  </h3>
+                </div>
                 <h4>June 2023 - Present</h4>
                 <p>
                   - Developed and implemented the company’s website using
@@ -77,29 +86,31 @@ const Experience = () => {
 
             <Row style={marginBottomStyles}>
               <Col>
-              <h3>
-                  Intern{" "}
-                  <a
-                    href="https://drive.google.com/file/d/1GXrOn1khGRXrkNpeCW4PGdvuqNnf46np/view?usp=sharing"
-                    target={"_blank"}
-                    style={{ color: "white", fontSize: "30px" }}
-                  >
-                    <FaArrowUp />
-                  </a>
-                </h3>
-                <h3>
-                  <a
-                    href="https://weiw.in/"
-                    target={"_blank"}
-                    style={{
-                      color: "white",
-                      fontSize: "30px",
-                      textDecoration: "none",
-                    }}
-                  >
-                    DIGITHON-TITA
-                  </a>
-                </h3>
+                <div>
+                  <h3 style={headingWithArrowStyles}>
+                    Intern{" "}
+                    <a
+                      href="https://drive.google.com/file/d/1GXrOn1khGRXrkNpeCW4PGdvuqNnf46np/view?usp=sharing"
+                      target={"_blank"}
+                      style={{ color: "white", fontSize: "30px" }}
+                    >
+                      <FaArrowUp />
+                    </a>
+                  </h3>
+                  <h3>
+                    <a
+                      href="https://weiw.in/"
+                      target={"_blank"}
+                      style={{
+                        color: "white",
+                        fontSize: "30px",
+                        textDecoration: "none",
+                      }}
+                    >
+                      DIGITHON-TITA
+                    </a>
+                  </h3>
+                </div>
                 <h4>July 2021 - September 2021</h4>
                 <p>
                   - Developed and implemented the company’s website using
