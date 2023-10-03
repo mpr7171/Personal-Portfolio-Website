@@ -5,12 +5,12 @@ import Profile from "../assets/profile_pic.jpg"
 const Home = () => {
   const containerStyles = {
     display: "flex",
-    flexDirection: "row", // Arrange the content in a row
-    alignItems: "center", // Vertically center the content
+    flexDirection: "row", 
+    alignItems: "center",
   };
 
   const leftContentStyles = {
-    flex: 1, // Take up all available horizontal space
+    flex: 1,
   };
 
   const taglineStyles = {
@@ -28,8 +28,8 @@ const Home = () => {
   };
 
   const imageContainerStyles = {
-    width: "30%",
-    height: "40%",
+    width: "40%",
+    height: "55%",
     borderRadius: "50%",
     overflow: "hidden",
     marginLeft: "5%",
@@ -44,11 +44,8 @@ const Home = () => {
 
   return (
     <div name="home" className="w-full h-screen bg-[#0a192f]">
-      {/* Container */}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full" style={containerStyles}>
-        {/* Left Content */}
         <div style={leftContentStyles}>
-          {/* Tagline with applied styles */}
           <span style={taglineStyles}>Welcome to my Portfolio</span>
 
           <div>
@@ -81,7 +78,6 @@ const Home = () => {
           </div>
         </div>
 
-        {/* Right Content - Image */}
         <div style={imageContainerStyles}>
           <img
             src={Profile}
