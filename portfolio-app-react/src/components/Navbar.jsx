@@ -14,21 +14,44 @@ const Navbar = () => {
 
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
-      {/* Animated Portfolio Text */}
-      {/* <div className="text-4xl font-bold">
-        <span className="text-blue-600">P</span>
-        <span className="text-red-600">O</span>
-        <span className="text-yellow-400">R</span>
-        <span className="text-green-400">T</span>
-        <span className="text-purple-400">F</span>
-        <span className="text-pink-400">O</span>
-        <span className="text-blue-600">L</span>
-        <span className="text-red-600">I</span>
-        <span className="text-yellow-400">O</span>
-      </div> */}
+      {/* Social icons */}
+      <div className="lg:flex fixed flex-col top-[35%] left-0 z-10">
+        <ul>
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
+            <a
+              className="flex justify-between items-center w-full text-gray-300"
+              href="https://www.linkedin.com/in/pranavreddymaddi/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Linkedin <FaLinkedin size={30} />
+            </a>
+          </li>
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
+            <a
+              className="flex justify-between items-center w-full text-gray-300"
+              href="https://github.com/mpr7171"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Github <FaGithub size={30} />
+            </a>
+          </li>
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#c13584]">
+            <a
+              className="flex justify-between items-center w-full text-gray-300"
+              href="https://www.instagram.com/pranav__0078/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Instagram <FaInstagram size={30} />
+            </a>
+          </li>
+        </ul>
+      </div>
 
       {/* menu */}
-      <ul className="hidden md:flex">
+      <ul className="hidden md:flex ml-auto space-x-4">
         <li>
           <Link to="home" smooth={true} duration={500}>
             Home
@@ -44,16 +67,16 @@ const Navbar = () => {
             Skills
           </Link>
         </li>
-          <li>
-            <Link to="experience" smooth={true} duration={500} offset={-80}>
-              Experience
-            </Link>
-          </li>
-          <li>
-          <Link to="work" smooth={true} duration={500}>
+        <li>
+          <Link to="experience" smooth={true} duration={500} offset={-80}>
+            Experience
+          </Link>
+        </li>
+        <li>
+          <Link to="work" smooth={true} duration={500} offset={-10}>
             Projects
           </Link>
-          </li>
+        </li>
         <li>
           <Link to="contact" smooth={true} duration={500} offset={-80}>
             Contact
@@ -110,42 +133,6 @@ const Navbar = () => {
           </Link>
         </li>
       </ul>
-
-      {/* Social icons */}
-      <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
-        <ul>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
-            <a
-              className="flex justify-between items-center w-full text-gray-300"
-              href="https://www.linkedin.com/in/pranav-reddy-111331223/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Linkedin <FaLinkedin size={30} />
-            </a>
-          </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
-            <a
-              className="flex justify-between items-center w-full text-gray-300"
-              href="https://github.com/mpr7171"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Github <FaGithub size={30} />
-            </a>
-          </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#c13584]">
-            <a
-              className="flex justify-between items-center w-full text-gray-300"
-              href="https://www.instagram.com/pranav__0078/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Instagram <FaInstagram size={30} />
-            </a>
-          </li>
-        </ul>
-      </div>
     </div>
   );
 };
