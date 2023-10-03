@@ -1,11 +1,11 @@
 import React from "react";
 import { Download } from "react-bootstrap-icons";
-import Profile from "../assets/profile_pic.jpg"
+import Profile from "../assets/profile_pic.jpg";
 
 const Home = () => {
   const containerStyles = {
     display: "flex",
-    flexDirection: "row", 
+    flexDirection: "row",
     alignItems: "center",
   };
 
@@ -33,7 +33,7 @@ const Home = () => {
     borderRadius: "50%",
     overflow: "hidden",
     marginLeft: "5%",
-    marginRight: "-5%" 
+    marginRight: "-5%",
   };
 
   const imageStyles = {
@@ -43,8 +43,8 @@ const Home = () => {
   };
 
   return (
-    <div name="home" className="w-full h-screen bg-[#0a192f]">
-      <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full" style={containerStyles}>
+    <div name="home" className="w-full min-h-screen bg-[#0a192f]">
+      <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center min-h-screen" style={containerStyles}>
         <div style={leftContentStyles}>
           <span style={taglineStyles}>Welcome to my Portfolio</span>
 
@@ -60,7 +60,7 @@ const Home = () => {
 
           <div>
             <p className="text-[#F5F5F5] py-4 max-w-[700px]">
-              I’m a full-stack developer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building responsive full-stack web applications.
+              I’m a front-end developer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building responsive web applications.
             </p>
           </div>
 
