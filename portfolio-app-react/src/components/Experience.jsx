@@ -34,7 +34,7 @@ const Experience = () => {
   return (
     <section
       name="experience"
-      className="w-full h-screen bg-[#0a192f] text-gray-300"
+      className="w-full h-auto md:h-screen bg-[#0a192f] text-gray-300"
     >
       <Container
         className="h-100"

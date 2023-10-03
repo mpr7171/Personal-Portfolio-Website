@@ -14,7 +14,7 @@ import BootStrap from "../assets/bootstrap.png";
 
 const Skills = () => {
   return (
-    <div name="skills" className="w-full h-screen bg-[#0a192f] text-gray-300">
+    <div name="skills" className="w-full h-auto md:h-screen bg-[#0a192f] text-gray-300">
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
@@ -23,54 +23,54 @@ const Skills = () => {
           </p>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
+        <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 gap-4 text-center py-8">
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={HTML} alt="HTML icon" />
             <p className="my-4">HTML</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-          <img className="w-20 mx-auto" src={CSS} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={CSS} alt="CSS icon" />
             <p className="my-4">CSS</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={JavaScript} alt="HTML icon" />
-            <p className="my-4">JAVASCRIPT</p>
+            <img className="w-20 mx-auto" src={JavaScript} alt="JavaScript icon" />
+            <p className="my-4">JavaScript</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={ReactImg} alt="HTML icon" />
-            <p className="my-4">REACT JS</p>
+            <img className="w-20 mx-auto" src={ReactImg} alt="React icon" />
+            <p className="my-4">React JS</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={GitHub} alt="HTML icon" />
-            <p className="my-4">GITHUB</p>
+            <img className="w-20 mx-auto" src={GitHub} alt="GitHub icon" />
+            <p className="my-4">GitHub</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Node} alt="HTML icon" />
-            <p className="my-4">NODE JS</p>
+            <img className="w-20 mx-auto" src={Node} alt="Node JS icon" />
+            <p className="my-4">Node JS</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={C} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={C} alt="C icon" />
             <p className="my-4">C</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Python} alt="HTML icon" />
-            <p className="my-4">PYTHON</p>
+            <img className="w-20 mx-auto" src={Python} alt="Python icon" />
+            <p className="my-4">Python</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={FireBase} alt="HTML icon" />
-            <p className="my-4">FIREBASE</p>
+            <img className="w-20 mx-auto" src={FireBase} alt="Firebase icon" />
+            <p className="my-4">Firebase</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={SQL} alt="HTML icon" />
+            <img className="w-20 mx-auto" src={SQL} alt="SQL icon" />
             <p className="my-4">SQL</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={MaterialUI} alt="HTML icon" />
-            <p className="my-4">MATERIAL UI</p>
+            <img className="w-20 mx-auto" src={MaterialUI} alt="Material UI icon" />
+            <p className="my-4">Material UI</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={BootStrap} alt="HTML icon" />
-            <p className="my-4">BOOTSTRAP</p>
+            <img className="w-20 mx-auto" src={BootStrap} alt="Bootstrap icon" />
+            <p className="my-4">Bootstrap</p>
           </div>
         </div>
       </div>
@@ -79,3 +79,9 @@ const Skills = () => {
 };
 
 export default Skills;
+
+
+
+
+
+
