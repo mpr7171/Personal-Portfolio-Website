@@ -15,6 +15,8 @@ const Contact = () => {
     window.location.href = `mailto:maddipranavreddy@gmail.com?subject=${subject}&body=${body}`;
   };
 
+  const isFormFilled = name.trim() !== "" && email.trim() !== "" && message.trim() !== "";
+
   return (
     <div
       name="contact"
@@ -61,7 +63,8 @@ const Contact = () => {
         ></textarea>
         <button
           type="submit"
-          className="text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center"
+          className={`text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center ${!isFormFilled ? 'disabled:opacity-50 cursor-not-allowed' : ''}`}
+          disabled={!isFormFilled}
         >
           Let's Collaborate
         </button>
