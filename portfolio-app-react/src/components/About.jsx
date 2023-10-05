@@ -24,22 +24,22 @@ const About = () => {
           </div>
           <div>
             <p>
-              I'm currently a final year Btech student in Artificial
-              Intelligence at Mahindra University.I'm interested in web
-              development, and I'm familiar with front-end technolgies.I enjoy
-              creating websites that work well on different devices and engage
-              users. I focus on making websites that are responsive and perform
-              efficiently. One of my strengths is solving problems. I break down
-              tough issues into manageable parts and come up with creative
-              solutions. This skill has been really helpful in my journey as a
-              developer. Most importantly, I'm passionate about creating
-              software that not only meets but exceeds expectations. I believe
-              technology can change industries and improve lives, and I want to
-              be a part of that change. As I continue in my career, I'm excited
-              to take on new challenges and keep learning in the ever-changing
-              tech world. My goal is to use my skills and knowledge to make a
-              positive impact through software development and artificial
-              intelligence.{" "}
+              I'm currently a final year BTech student persuing degree in
+              Artificial Intelligence at Mahindra University.I'm interested in
+              web development, and I'm familiar with front-end technolgies.I
+              enjoy creating websites that work well on different devices and
+              engage users. I focus on making websites that are responsive and
+              perform efficiently. One of my strengths is solving problems. I
+              break down tough issues into manageable parts and come up with
+              creative solutions. This skill has been really helpful in my
+              journey as a developer. Most importantly, I'm passionate about
+              creating software that not only meets but exceeds expectations. I
+              believe technology can change industries and improve lives, and I
+              want to be a part of that change. As I continue in my career, I'm
+              excited to take on new challenges and keep learning in the
+              ever-changing tech world. My goal is to use my skills and
+              knowledge to make a positive impact through software development
+              and artificial intelligence.{" "}
             </p>
           </div>
         </div>
