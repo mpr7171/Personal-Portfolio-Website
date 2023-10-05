@@ -1,29 +1,48 @@
-import React from 'react';
+import React from "react";
 
 const About = () => {
   return (
-    <div name='about' className='w-full h-screen bg-[#0a192f] text-gray-300'>
-      <div className='flex flex-col justify-center items-center w-full h-full'>
-        <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
-          <div className='sm:text-right pb-8 pl-4'>
-            <p className='text-4xl font-bold inline border-b-4 border-pink-600'>
+    <div
+      name="about"
+      className="w-full h-screen bg-[#0a192f] text-gray-300 pt-16"
+    >
+      <div className="flex flex-col justify-center items-center w-full h-full">
+        <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
+          <div className="sm:text-left pb-8 pl-4">
+            <p className="text-4xl font-bold inline border-b-4 border-pink-600">
               About
             </p>
           </div>
           <div></div>
+        </div>
+        <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
+          <div className="sm:text-left text-4xl font-bold">
+            <p>
+              Welcome, I'm thrilled you're here. Feel free to explore and unlock
+              the creative possibilities we can embark on together.
+            </p>
           </div>
-          <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-            <div className='sm:text-right text-4xl font-bold'>
-              <p>Hi. I'm Pranav Reddy, nice to meet you. Please take a look around.</p>
-            </div>
-            <div>
-              <p>I am passionate about building excellent software that improves
-              the lives of those around me. I specialize in creating software
-              for clients ranging from individuals and small-businesses all the
-              way to large enterprise corporations. What would you do if you had
-              a software expert available at your fingertips?</p>  
-            </div>
+          <div>
+            <p>
+              I'm currently a final year Btech student in Artificial
+              Intelligence at Mahindra University.I'm interested in web
+              development, and I'm familiar with front-end technolgies.I enjoy
+              creating websites that work well on different devices and engage
+              users. I focus on making websites that are responsive and perform
+              efficiently. One of my strengths is solving problems. I break down
+              tough issues into manageable parts and come up with creative
+              solutions. This skill has been really helpful in my journey as a
+              developer. Most importantly, I'm passionate about creating
+              software that not only meets but exceeds expectations. I believe
+              technology can change industries and improve lives, and I want to
+              be a part of that change. As I continue in my career, I'm excited
+              to take on new challenges and keep learning in the ever-changing
+              tech world. My goal is to use my skills and knowledge to make a
+              positive impact through software development and artificial
+              intelligence.{" "}
+            </p>
           </div>
+        </div>
       </div>
     </div>
   );

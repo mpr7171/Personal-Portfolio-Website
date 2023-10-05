@@ -7,6 +7,7 @@ const Home = () => {
     display: "flex",
     flexDirection: "row",
     alignItems: "center",
+    paddingTop: "75px",
   };
 
   const leftContentStyles = {
@@ -47,9 +48,10 @@ const Home = () => {
 
           <div>
             <p className="text-[#F5F5F5] py-4 max-w-[700px]">
-              I’m a front-end developer specializing in building (and
-              occasionally designing) exceptional digital experiences.
-              Currently, I’m focused on building responsive web applications.
+              I'm passionate about crafting captivating digital experiences
+              through front-end development. With expertise in building
+              responsive web applications, I'm dedicated to transforming ideas
+              into user-friendly, visually appealing websites.
             </p>
           </div>
 
