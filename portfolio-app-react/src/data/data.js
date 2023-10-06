@@ -5,7 +5,7 @@ import ReelsApp from "../assets/projects/ReelsApp.png"
 export const data = [
   {
     id: 1,
-    name: "Short Video App",
+    name: "Short Video Reels App",
     image: ReelsApp,
     github: "https://github.com/mpr7171/Short-Video-App",
     live: "",
