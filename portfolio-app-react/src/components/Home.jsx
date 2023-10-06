@@ -7,7 +7,7 @@ const Home = () => {
     display: "flex",
     flexDirection: "row",
     alignItems: "center",
-    paddingTop: "75px",
+    paddingTop: "120px",
   };
 
   const leftContentStyles = {

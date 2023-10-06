@@ -84,6 +84,7 @@ const Navbar = () => {
             to="skills"
             smooth={true}
             duration={500}
+            offset={-80}
             className="text-lg hover:text-blue-500"
           >
             Skills
