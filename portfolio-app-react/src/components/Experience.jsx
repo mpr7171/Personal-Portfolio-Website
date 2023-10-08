@@ -55,7 +55,7 @@ const Experience = () => {
                   <h2 style={headingWithArrowStyles}>
                     <span style={internHeadingStyles}>SDE Intern</span>{" "}
                     <a
-                      href="https://drive.google.com/file/d/1Wuo2pLFZNlSYHOqfmqbb4cA45IKOxaMj/view?usp=drive_link"
+                      href="https://drive.google.com/file/d/1Wuo2pLFZNlSYHOqfmqbb4cA45IKOxaMj/view?usp=sharing"
                       target={"_blank"}
                       style={arrowIconStyles}
                     >
@@ -101,7 +101,7 @@ const Experience = () => {
                   <h3 style={headingWithArrowStyles}>
                     <span style={internHeadingStyles}>Intern</span>{" "}
                     <a
-                      href="https://drive.google.com/file/d/12WgqNMRg-7F-JTU5OOT6ShL90yhKmPlA/view?usp=drive_link"
+                      href="https://drive.google.com/file/d/12WgqNMRg-7F-JTU5OOT6ShL90yhKmPlA/view?usp=sharing"
                       target={"_blank"}
                       style={arrowIconStyles}
                     >
