@@ -19,3 +19,8 @@ npm install
 npm start
 
 The app will be available at http://localhost:3000
+
+## Deployment
+
+I hosted my Portfolio live on Github Pages. Can access my website through the below link:
+https://mpr7171.github.io/Personal-Portfolio-Website/
