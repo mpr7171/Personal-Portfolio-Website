@@ -10,7 +10,7 @@ const About = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
           <div className="sm:text-left pb-8 pl-4">
             <p className="text-4xl font-bold inline border-b-4 border-pink-600">
-              About
+              About Me
             </p>
           </div>
           <div></div>

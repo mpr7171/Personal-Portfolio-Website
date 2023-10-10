@@ -76,7 +76,7 @@ const Navbar = () => {
             duration={500}
             className="text-lg hover:text-blue-500"
           >
-            About
+            About Me
           </Link>
         </li>
         <li>
@@ -143,7 +143,7 @@ const Navbar = () => {
         </li>
         <li className="py-6 text-4xl">
           <Link onClick={handleClick} to="about" smooth={true} duration={500}>
-            About
+            About Me
           </Link>
         </li>
         <li className="py-6 text-4xl">
