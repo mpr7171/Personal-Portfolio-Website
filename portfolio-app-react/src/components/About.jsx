@@ -39,7 +39,7 @@ const About = () => {
               excited to take on new challenges and keep learning in the
               ever-changing tech world. My goal is to use my skills and
               knowledge to make a positive impact through software development
-              and artificial intelligence.{" "}
+              and artificial intelligence.
             </p>
           </div>
         </div>
