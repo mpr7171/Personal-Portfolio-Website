@@ -42,10 +42,10 @@ const Experience = () => {
       >
         <Row className="h-100 justify-content-center align-items-center">
           <Col>
-            <div>
-              <h1 className="text-4xl font-bold inline border-b-4 border-pink-600">
+            <div className="pb-8 sm:pt-0 sm:pb-4">
+              <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600">
                 Experience
-              </h1>
+              </p>
             </div>
             <br></br>
 
