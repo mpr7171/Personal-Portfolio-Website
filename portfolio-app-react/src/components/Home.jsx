@@ -20,7 +20,7 @@ const Home = () => {
     borderRadius: "50%",
     overflow: "hidden",
     marginLeft: "5%",
-    marginRight: "-5%",
+    marginRight: "-6%",
   };
 
   const imageStyles = {
