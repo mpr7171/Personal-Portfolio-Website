@@ -122,14 +122,14 @@ const Experience = () => {
             <p>
               - During my In-Plant Training cum Internship, I had the opportunity
               to immerse myself in the dynamic field of Artificial Intelligence
-              and Machine Learning (AI/ML)
+              and Machine Learning (AI/ML).
               <br />
               - Had an opportunity to explore Python programming and implement
               various Machine Learning and Deep Learning algorithms.
               <br />- Participated in Hackathon (Group of 4) selected 2 tasks and
               developed Chatbot for Hospital and Flight Recommendation using
               various word embedding and classification techniques from the tasks
-              assigned
+              assigned.
             </p>
           </div>
         </div>
