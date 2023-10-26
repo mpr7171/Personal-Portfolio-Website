@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Personal-Portfolio-Website/static/css/main.85061cf6.css",
-    "main.js": "/Personal-Portfolio-Website/static/js/main.c13ed519.js",
+    "main.js": "/Personal-Portfolio-Website/static/js/main.7a53c916.js",
     "static/media/ReelsApp.png": "/Personal-Portfolio-Website/static/media/ReelsApp.b58b21c05368102efdb0.png",
     "static/media/VTool.jpg": "/Personal-Portfolio-Website/static/media/VTool.a43f5f11ea789cb5543d.jpg",
     "static/media/DinosaurDino.jpg": "/Personal-Portfolio-Website/static/media/DinosaurDino.0b1ee51183a73ae30691.jpg",
@@ -18,10 +18,10 @@
     "static/media/Sql.svg": "/Personal-Portfolio-Website/static/media/Sql.469a7a05db3e2dc7864ddc62deb6679e.svg",
     "index.html": "/Personal-Portfolio-Website/index.html",
     "main.85061cf6.css.map": "/Personal-Portfolio-Website/static/css/main.85061cf6.css.map",
-    "main.c13ed519.js.map": "/Personal-Portfolio-Website/static/js/main.c13ed519.js.map"
+    "main.7a53c916.js.map": "/Personal-Portfolio-Website/static/js/main.7a53c916.js.map"
   },
   "entrypoints": [
     "static/css/main.85061cf6.css",
-    "static/js/main.c13ed519.js"
+    "static/js/main.7a53c916.js"
   ]
 }
