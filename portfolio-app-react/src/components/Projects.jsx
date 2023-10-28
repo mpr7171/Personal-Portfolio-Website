@@ -1,7 +1,7 @@
 import React from "react";
 import { data } from "../data/data.js";
 
-const Work = () => {
+const Projects = () => {
   const project = data;
 
   return (
@@ -48,4 +48,4 @@ const Work = () => {
   );
 };
 
-export default Work;
+export default Projects;
