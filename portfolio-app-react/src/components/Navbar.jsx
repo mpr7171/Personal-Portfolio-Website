@@ -106,7 +106,7 @@ const Navbar = () => {
             to="work"
             smooth={true}
             duration={500}
-            offset={-10}
+            offset={-5}
             className="text-lg hover:text-blue-500"
           >
             Projects
