@@ -7,7 +7,7 @@ const About = () => {
       className="w-full min-h-screen bg-[#0a192f] text-gray-300 pt-16"
     >
       <div className="max-w-[1000px] mx-auto p-4">
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+        <div className="sm:grid grid-cols-1 sm:grid-cols-2 gap-8">
           <div className="sm:text-left pb-8 pl-4">
             <p className="text-4xl font-bold inline border-b-4 border-pink-600">
               About Me
@@ -15,18 +15,19 @@ const About = () => {
           </div>
           <div></div>
         </div>
-        <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
+        <div className="sm:grid grid-cols-1 sm:grid-cols-2 gap-8 px-4">
           <div className="sm:text-left text-4xl font-bold">
             <p>
               Welcome, I'm thrilled you're here. Feel free to explore and unlock
               the creative possibilities we can embark on together.
             </p>
+            <div className="sm:hidden mt-4"></div> {/* Adds a gap on smaller screens */}
           </div>
           <div>
             <p>
-              I'm currently a final year BTech student persuing degree in
-              Artificial Intelligence at Mahindra University.I'm interested in
-              web development, and I'm familiar with front-end technolgies.I
+              I'm currently a final year BTech student pursuing a degree in
+              Artificial Intelligence at Mahindra University. I'm interested in
+              web development, and I'm familiar with front-end technologies. I
               enjoy creating websites that work well on different devices and
               engage users. I focus on making websites that are responsive and
               perform efficiently. One of my strengths is solving problems. I
