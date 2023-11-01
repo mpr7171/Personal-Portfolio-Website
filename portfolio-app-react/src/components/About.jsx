@@ -21,7 +21,7 @@ const About = () => {
               Welcome, I'm thrilled you're here. Feel free to explore and unlock
               the creative possibilities we can embark on together.
             </p>
-            <div className="sm:hidden mt-4"></div> {/* Adds a gap on smaller screens */}
+            <div className="sm:hidden mt-4"></div> 
           </div>
           <div>
             <p>

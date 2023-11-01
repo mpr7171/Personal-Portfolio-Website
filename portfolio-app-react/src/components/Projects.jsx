@@ -5,7 +5,7 @@ const Projects = () => {
   const project = data;
 
   return (
-    <div name="work" className="w-full text-gray-300 bg-[#0a192f] pt-2 pb-16 sm:pt-14 sm:pb-16"> {/* Reduced top padding on smaller screens */}
+    <div name="work" className="w-full text-gray-300 bg-[#0a192f] pt-2 pb-16 sm:pt-14 sm:pb-16"> 
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-4 sm:pt-0 sm:pb-4">
           <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600">
