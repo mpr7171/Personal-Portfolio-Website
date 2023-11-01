@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Personal-Portfolio-Website/static/css/main.4e2dab47.css",
-    "main.js": "/Personal-Portfolio-Website/static/js/main.fb6c9445.js",
+    "main.css": "/Personal-Portfolio-Website/static/css/main.38e9f0c3.css",
+    "main.js": "/Personal-Portfolio-Website/static/js/main.11e1ef68.js",
     "static/media/ReelsApp.png": "/Personal-Portfolio-Website/static/media/ReelsApp.b58b21c05368102efdb0.png",
     "static/media/VTool.jpg": "/Personal-Portfolio-Website/static/media/VTool.a43f5f11ea789cb5543d.jpg",
     "static/media/DinosaurDino.jpg": "/Personal-Portfolio-Website/static/media/DinosaurDino.0b1ee51183a73ae30691.jpg",
@@ -17,11 +17,11 @@
     "static/media/javascript.png": "/Personal-Portfolio-Website/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "static/media/Sql.svg": "/Personal-Portfolio-Website/static/media/Sql.469a7a05db3e2dc7864ddc62deb6679e.svg",
     "index.html": "/Personal-Portfolio-Website/index.html",
-    "main.4e2dab47.css.map": "/Personal-Portfolio-Website/static/css/main.4e2dab47.css.map",
-    "main.fb6c9445.js.map": "/Personal-Portfolio-Website/static/js/main.fb6c9445.js.map"
+    "main.38e9f0c3.css.map": "/Personal-Portfolio-Website/static/css/main.38e9f0c3.css.map",
+    "main.11e1ef68.js.map": "/Personal-Portfolio-Website/static/js/main.11e1ef68.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e2dab47.css",
-    "static/js/main.fb6c9445.js"
+    "static/css/main.38e9f0c3.css",
+    "static/js/main.11e1ef68.js"
   ]
 }
