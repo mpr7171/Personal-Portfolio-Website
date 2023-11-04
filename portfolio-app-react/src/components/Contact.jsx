@@ -9,13 +9,14 @@ const Contact = () => {
     event.preventDefault();
     const subject = encodeURIComponent("Collaboration Inquiry");
     const body = encodeURIComponent(
-      `Hello,\n\nMy name is ${name}, and my email is ${email}. 
+      `Hello,\n\nMy name is ${name}, 
       I have a message for you:\n\n${message}`
     );
     window.location.href = `mailto:maddipranavreddy@gmail.com?subject=${subject}&body=${body}`;
   };
 
-  const isFormFilled = name.trim() !== "" && email.trim() !== "" && message.trim() !== "";
+  const isFormFilled =
+    name.trim() !== "" && email.trim() !== "" && message.trim() !== "";
 
   return (
     <div
@@ -25,7 +26,9 @@ const Contact = () => {
       <form
         method="POST"
         action="https://getform.io/f/a699a1b2-f225-434e-b317-1fbbde8e006c"
-        className={`flex flex-col max-w-[600px] w-full ${window.innerWidth <= 768 ? '-mt-24' : ''}`}
+        className={`flex flex-col max-w-[600px] w-full ${
+          window.innerWidth <= 768 ? "-mt-24" : ""
+        }`}
         onSubmit={handleSubmit}
       >
         <div className="pb-8">
@@ -63,7 +66,9 @@ const Contact = () => {
         ></textarea>
         <button
           type="submit"
-          className={`text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center ${!isFormFilled ? 'disabled:opacity-50 cursor-not-allowed' : ''}`}
+          className={`text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center ${
+            !isFormFilled ? "disabled:opacity-50 cursor-not-allowed" : ""
+          }`}
           disabled={!isFormFilled}
         >
           Let's Collaborate
